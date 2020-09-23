@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/TC01_LoginWrongPassword","testCaseId":"Test Cases/TC01_LoginWrongPassword"}
+{"testCaseName":"Test Cases/TC02_LoginEmptyUsername","testCaseId":"Test Cases/TC02_LoginEmptyUsername"}
+{"testCaseName":"Test Cases/TC03_LoginEmptyPassword","testCaseId":"Test Cases/TC03_LoginEmptyPassword"}
+{"testCaseName":"Test Cases/TC04_LoginSuccess","testCaseId":"Test Cases/TC04_LoginSuccess"}
+{"testCaseName":"Test Cases/TC05_UseTestedFunctionalityOfSite","testCaseId":"Test Cases/TC05_UseTestedFunctionalityOfSite"}

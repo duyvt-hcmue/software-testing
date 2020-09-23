@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Webpagetest,Chrome 85.0.4183.102,,,2020-09-23 17:22:39,2020-09-23 17:23:26,47.789s,PASSED
+,,,,,,,
+Test Cases/TC01_LoginWrongPassword,Chrome 85.0.4183.102,,,2020-09-23 17:22:39,2020-09-23 17:22:49,9.735s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-23 17:22:39,2020-09-23 17:22:40,1.224s,PASSED
+"navigateToUrl(""https://www.webpagetest.org/"")",Chrome 85.0.4183.102,,,2020-09-23 17:22:40,2020-09-23 17:22:44,3.552s,PASSED
+"click(findTestObject(""Object Repository/TC01_LoginWrongPassword/Page_WebPageTest - Website Performance and _5bfcc6/a_Login""))",Chrome 85.0.4183.102,,,2020-09-23 17:22:44,2020-09-23 17:22:46,1.800s,PASSED
+"setText(findTestObject(""Object Repository/TC01_LoginWrongPassword/Page_WebPagetest Forums - Login/input_Username_username""), ""vtd"")",Chrome 85.0.4183.102,,,2020-09-23 17:22:46,2020-09-23 17:22:46,0.601s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC01_LoginWrongPassword/Page_WebPagetest Forums - Login/input_()_password""), ""tzH6RvlfSTg="")",Chrome 85.0.4183.102,,,2020-09-23 17:22:46,2020-09-23 17:22:47,0.376s,PASSED
+"click(findTestObject(""Object Repository/TC01_LoginWrongPassword/Page_WebPagetest Forums - Login/input_Remember me_submit""))",Chrome 85.0.4183.102,,,2020-09-23 17:22:47,2020-09-23 17:22:48,1.613s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC01_LoginWrongPassword/Page_WebPagetest Forums - Login/div_Please correct the following errors bef_8eda1f""), 0)",Chrome 85.0.4183.102,,,2020-09-23 17:22:48,2020-09-23 17:22:48,0.291s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 17:22:48,2020-09-23 17:22:49,0.079s,PASSED
+,,,,,,,
+Test Cases/TC02_LoginEmptyUsername,Chrome 85.0.4183.102,,,2020-09-23 17:22:49,2020-09-23 17:22:55,6.654s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-23 17:22:49,2020-09-23 17:22:49,0.431s,PASSED
+"navigateToUrl(""https://www.webpagetest.org/"")",Chrome 85.0.4183.102,,,2020-09-23 17:22:49,2020-09-23 17:22:52,2.823s,PASSED
+"click(findTestObject(""Object Repository/TC02_LoginEmptyUsername/Page_WebPageTest - Website Performance and _5bfcc6/a_Login""))",Chrome 85.0.4183.102,,,2020-09-23 17:22:52,2020-09-23 17:22:54,1.730s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC02_LoginEmptyUsername/Page_WebPagetest Forums - Login/input_()_password""), ""ISvJhDV+0iO0sg/NmSkSwg=="")",Chrome 85.0.4183.102,,,2020-09-23 17:22:54,2020-09-23 17:22:54,0.378s,PASSED
+"click(findTestObject(""Object Repository/TC02_LoginEmptyUsername/Page_WebPagetest Forums - Login/input_Remember me_submit""))",Chrome 85.0.4183.102,,,2020-09-23 17:22:54,2020-09-23 17:22:55,0.836s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC02_LoginEmptyUsername/Page_WebPagetest Forums/td_You have entered an invalid usernamepass_5af1be""), 0)",Chrome 85.0.4183.102,,,2020-09-23 17:22:55,2020-09-23 17:22:55,0.267s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 17:22:55,2020-09-23 17:22:55,0.071s,PASSED
+,,,,,,,
+Test Cases/TC03_LoginEmptyPassword,Chrome 85.0.4183.102,,,2020-09-23 17:22:55,2020-09-23 17:23:02,7.238s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-23 17:22:55,2020-09-23 17:22:56,0.439s,PASSED
+"navigateToUrl(""https://www.webpagetest.org/"")",Chrome 85.0.4183.102,,,2020-09-23 17:22:56,2020-09-23 17:22:58,2.711s,PASSED
+"click(findTestObject(""Object Repository/TC03_LoginEmptyPassword/Page_WebPageTest - Website Performance and _5bfcc6/a_Login""))",Chrome 85.0.4183.102,,,2020-09-23 17:22:58,2020-09-23 17:23:00,1.613s,PASSED
+"setText(findTestObject(""Object Repository/TC03_LoginEmptyPassword/Page_WebPagetest Forums - Login/input_Username_username""), ""vtd"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:00,2020-09-23 17:23:01,0.580s,PASSED
+"click(findTestObject(""Object Repository/TC03_LoginEmptyPassword/Page_WebPagetest Forums - Login/input_Remember me_submit""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:01,2020-09-23 17:23:02,1.466s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC03_LoginEmptyPassword/Page_WebPagetest Forums - Login/div_Please correct the following errors bef_8eda1f""), 0)",Chrome 85.0.4183.102,,,2020-09-23 17:23:02,2020-09-23 17:23:02,0.270s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 17:23:02,2020-09-23 17:23:02,0.073s,PASSED
+,,,,,,,
+Test Cases/TC04_LoginSuccess,Chrome 85.0.4183.102,,,2020-09-23 17:23:02,2020-09-23 17:23:12,9.494s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-23 17:23:03,2020-09-23 17:23:03,0.478s,PASSED
+"navigateToUrl(""https://www.webpagetest.org/"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:03,2020-09-23 17:23:06,2.973s,PASSED
+"click(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPageTest - Website Performance and _5bfcc6/a_Login""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:06,2020-09-23 17:23:08,1.691s,PASSED
+"setText(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPagetest Forums - Login/input_Username_username""), ""vtd"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:08,2020-09-23 17:23:08,0.576s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPagetest Forums - Login/input_()_password""), ""ISvJhDV+0iO0sg/NmSkSwg=="")",Chrome 85.0.4183.102,,,2020-09-23 17:23:08,2020-09-23 17:23:09,0.385s,PASSED
+"click(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPagetest Forums - Login/input_Remember me_submit""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:09,2020-09-23 17:23:10,1.832s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPageTest - Website Performance and _5bfcc6/div_Welcome, vtd  Logout""), 0)",Chrome 85.0.4183.102,,,2020-09-23 17:23:10,2020-09-23 17:23:11,0.671s,PASSED
+"click(findTestObject(""Object Repository/TC04_LoginSuccess/Page_WebPageTest - Website Performance and _5bfcc6/a_Logout""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:11,2020-09-23 17:23:12,0.706s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 17:23:12,2020-09-23 17:23:12,0.076s,PASSED
+,,,,,,,
+Test Cases/TC05_UseTestedFunctionalityOfSite,Chrome 85.0.4183.102,,,2020-09-23 17:23:12,2020-09-23 17:23:26,14.457s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-23 17:23:12,2020-09-23 17:23:12,0.449s,PASSED
+"navigateToUrl(""https://www.webpagetest.org/"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:12,2020-09-23 17:23:16,3.086s,PASSED
+"click(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPageTest - Website Performance and _5bfcc6/a_Login""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:16,2020-09-23 17:23:18,2.225s,PASSED
+"setText(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPagetest Forums - Login/input_Username_username""), ""vtd"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:18,2020-09-23 17:23:18,0.584s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPagetest Forums - Login/input_()_password""), ""ISvJhDV+0iO0sg/NmSkSwg=="")",Chrome 85.0.4183.102,,,2020-09-23 17:23:18,2020-09-23 17:23:19,0.360s,PASSED
+"click(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPagetest Forums - Login/input_Remember me_submit""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:19,2020-09-23 17:23:21,1.820s,PASSED
+"setText(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPageTest - Website Performance and _5bfcc6/input_Traceroute_url""), ""fb.com"")",Chrome 85.0.4183.102,,,2020-09-23 17:23:21,2020-09-23 17:23:22,1.022s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPageTest - Website Performance and _5bfcc6/select_Moto G (gen 4)Moto G (gen 6)Alcatel _73e413""), ""ec2-ap-northeast-2-catchpoint"", true)",Chrome 85.0.4183.102,,,2020-09-23 17:23:22,2020-09-23 17:23:24,2.338s,PASSED
+"click(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPageTest - Website Performance and _5bfcc6/button_Custom Hero Element Selectors_g-reca_fcd9f4""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:24,2020-09-23 17:23:25,1.224s,PASSED
+"click(findTestObject(""Object Repository/TC05_UseTestedFunctionalityOfSite/Page_WebPageTest Content Breakdown - Seoul _cc0266/a_Logout""))",Chrome 85.0.4183.102,,,2020-09-23 17:23:25,2020-09-23 17:23:26,1.178s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 17:23:26,2020-09-23 17:23:26,0.073s,PASSED
